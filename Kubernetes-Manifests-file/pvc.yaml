@@ -6,7 +6,7 @@ metadata:
 spec: 
   accessModes:  
     - ReadWriteOnce
-  storageClassName: ""
+  storageClassName: "signoz-gp3"
   resources:
     requests:
       storage: 1Gi
